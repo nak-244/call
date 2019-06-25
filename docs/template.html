@@ -50,7 +50,7 @@
     <a class="header-menu-toggle" href="#0">
       <span class="header-menu-icon"></span>
     </a>
-  </header> <!-- end s-header -->
+  </header>
 
   <!-- home
     ================================================== -->
@@ -212,7 +212,7 @@
         <h3 class="subhead">発信、受信、クレーム対応まで！</h3>
         <h1 class="display-1">コールセンター勤務で身につくスキル</h1>
       </div>
-    </div> <!-- end section-header -->
+    </div>
 
     <div class="row" data-aos="fade-up">
       <div class="col-full">
@@ -220,7 +220,7 @@
           コールセンターのお仕事は、電話をかけるアウトバウンドと、電話を受けるインバウンドに大きく分かれます。それぞれの仕事には特徴があり、見つけられるスキルも異なってきます。いずれも、基本的な電話応対のスキル以上のものを身につけることが可能な職種です。
         </p>
       </div>
-    </div> <!-- end skill-desc -->
+    </div>
 
     <div class="row">
 
@@ -274,11 +274,11 @@
           </div>
         </div>
 
-      </div> <!-- end process -->
+      </div>
 
-    </div> <!-- end about-stats -->
+    </div>
 
-  </section> <!-- end s-about -->
+  </section>
 
   <!-- mikeikenn
   ================================================== -->
@@ -314,7 +314,7 @@
               前職：アパレル販売
               <span>32歳・女性／コールセンター歴：1年6ヶ月</span>
             </div>
-          </div> <!-- end testimonials__slide -->
+          </div>
           <div class="testimonials__slide">
             <img src="images/avatars/user-02.jpg" alt="Author image" class="testimonials__avatar">
             <p>ネイリストを目指しているので、学校と両立できる仕事ということでコールセンターの仕事を選びました。今のセンターではシフトの希望が出せたり、ネイルや服装も自由なので、自分の条件にピッタリです。</p>
@@ -322,7 +322,7 @@
               前職：美容師
               <span>22歳・女性／コールセンター歴：8ヶ月</span>
             </div>
-          </div> <!-- end testimonials__slide -->
+          </div>
           <div class="testimonials__slide">
             <img src="images/avatars/user-03.jpg" alt="Author image" class="testimonials__avatar">
             <p>前職では夜勤もあったため勤務時間が不定期で、肉体的にも精神的も疲れがとれなかったです。年齢的にも体がついていかなくなり、コールセンターへ転職をしました。未経験の方も、しっかりとした研修と先輩のフォローがあるので、安心して働けますよ。</p>
@@ -330,10 +330,10 @@
               前職：介護職
               <span>38歳・女性／コールセンター歴：2年2ヶ月</span>
             </div>
-          </div> <!-- end testimonials__slide -->
-        </div> <!-- end testimonials__slider -->
-      </div> <!-- end testimonials -->
-    </div> <!-- end testimonials-wrap -->
+          </div>
+        </div>
+      </div>
+    </div>
 
     <div class="testimonials-wrap" data-aos="fade-up">
       <div class="row">
@@ -355,8 +355,8 @@
             <dd>これで研修は修了です。最初は緊張するかもしれませんが、研修内容を活かして少しずつ慣れていきましょう。</dd>
           </dl>
         </div>
-      </div> <!-- end row -->
-    </div> <!-- end testimonials-wrap -->
+      </div>
+    </div>
 
   </section>
 
@@ -406,12 +406,12 @@
         <p class="contact-address">〒160-0022<br>東京都新宿区新宿4-3-17 FORECAST新宿SOUTH7階<br><i class="fa fa-phone-square" aria-hidden="true"></i>03-5368-3088</p>
         <p><a class="btn btn--primary" href="https://www.olp.co.jp/" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i>公式サイト</a>
         </p>
-      </div> <!-- end contact-secondary -->
+      </div>
       <div class="col-six tab-full contact-secondary">
         <h3 class="subhead subhead--light">※※※※※※※※※※</h3>
         <p class="contact-address">※※※※※※</p>
-      </div> <!-- end contact-secondary -->
-    </div> <!-- end row -->
+      </div>
+    </div>
     <div class="row">
       <div class="col-full cl-copyright">
         <span>
@@ -421,7 +421,7 @@
     <div class="cl-go-top">
       <a class="smoothscroll" title="Back to Top" href="#top"><i class="icon-arrow-up" aria-hidden="true"></i></a>
     </div>
-  </section> <!-- end s-contact -->
+  </section>
 
   <!-- preloader -->
   <div id="preloader">
@@ -433,6 +433,19 @@
   <script src="js/jquery-3.2.1.min.js"></script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
+
+  <!-- search Script -->
+  <script type="text/javascript">
+    $(function() {
+      var href = "https://sigotora.jp/index.cfm";
+      $('#srh_ken_param,#srh_jobtype_param,#sfw').on('change', function() {
+        var srh_ken_param = $('#srh_ken_param').val();
+        var srh_jobtype_param = $('#srh_jobtype_param').val();
+        var sfw = $('#sfw').val();
+        $('#test').prop('href', href + "?fuseaction=job.joblist&srh_ken_param=" + srh_ken_param + "&srh_jobtype_param=" + srh_jobtype_param + "&sfw=" + sfw);
+      });
+    });
+  </script>
 
 </body>
 
