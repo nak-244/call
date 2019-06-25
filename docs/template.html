@@ -140,7 +140,8 @@
         <input type="text" class="full-width" id="sfw">
       </div>
       <div class="col-two tab-full">
-        <a class="btn btn-primary" href="https://sigotora.jp/index.cfm?fuseaction=job.joblist&amp;srh_ken_param=&amp;srh_jobtype_param=&amp;sfw=" target="_blank" id="test">求人検索</a>
+        <label for="sfw">検索</label>
+        <a class="btn btn-primary" href="https://sigotora.jp/index.cfm?fuseaction=job.joblist&srh_jobtype_param=1&srh_jobtype_child_param=4&srh_jobtype_child_param=5" target="_blank" id="test">求人検索</a>
       </div>
     </div>
 
@@ -514,7 +515,7 @@
       $('#srh_ken_param,#sfw').on('change', function() {
         var srh_ken_param = $('#srh_ken_param').val();
         var sfw = $('#sfw').val();
-        $('#test').prop('href', href + "?fuseaction=job.joblist&srh_ken_param=" + srh_ken_param + "&sfw=" + sfw);
+        $('#test').prop('href', href + "?fuseaction=job.joblist&srh_jobtype_param=1&srh_jobtype_child_param=4&srh_jobtype_child_param=5&srh_ken_param=" + srh_ken_param + "&sfw=" + sfw);
       });
     });
   </script>
