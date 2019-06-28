@@ -1,735 +1,834 @@
 <!DOCTYPE html>
-<html class="no-js" lang="en">
+<html>
+
 <head>
-
-    <!--- basic page needs
-    ================================================== -->
-    <meta charset="utf-8">
-    <title>Transcend</title>
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <!-- mobile specific metas
-    ================================================== -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- CSS
-    ================================================== -->
-    <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/vendor.css">
-    <link rel="stylesheet" href="css/main.css">
-
-    <!-- script
-    ================================================== -->
-    <script src="js/modernizr.js"></script>
-    <script src="js/pace.min.js"></script>
-
-    <!-- favicons
-    ================================================== -->
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
-
+  <meta charset="utf-8">
+  <title>コールセンターで働く｜オープンループパートナーズ</title>
+  <meta name="description" content="">
+  <meta name="author" content="Tsuyoshi Nakamura">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/vendor.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Noto+Sans+JP:400,700" rel="stylesheet">
+  <style type="text/css" media="screen">
+    .s-styles {
+      background: white;
+      padding-top: 15rem;
+      padding-bottom: 12rem;
+    }
+  </style>
+  <script src="js/modernizr.js"></script>
+  <script src="js/pace.min.js"></script>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-WCVLQV4');</script>
+  <!-- End Google Tag Manager -->
 </head>
 
 <body id="top">
-
-    <!-- header
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WCVLQV4"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+  <!-- header
     ================================================== -->
-    <header class="s-header">
+  <header class="s-header">
+    <div class="header-logo">
+      <a class="site-logo" href="index.html">
+        <img src="assets/logo.png" alt="オープンループパートナーズ">
+      </a>
+    </div>
+    <nav class="header-nav">
+      <a href="#0" class="header-nav__close" title="close"><span>Close</span></a>
+      <div class="header-nav__content">
+        <h3>Open Loop Partners, INC.</h3>
+        <ul class="header-nav__list">
+          <li class="current"><a href="#home" title="home" class="smoothscroll">Home</a></li>
+          <li><a href="#search" title="仕事検索" class="smoothscroll">仕事検索</a></li>
+          <li><a href="#about" title="コールセンターの業務" class="smoothscroll">コールセンターの業務</a></li>
+          <li><a href="#inbound" title="インバウンド・アウトバウンド" class="smoothscroll">インバウンド・アウトバウンド</a></li>
+          <li><a href="#skill" title="身につくスキル" class="smoothscroll">身につくスキル</a></li>
+          <li><a href="#mikeiken" title="未経験でも就業OK" class="smoothscroll">未経験でも就業OK</a></li>
+          <li><a href="#fashion" title="勤務時の服装" class="smoothscroll">勤務時の服装</a></li>
+        </ul>
+        <p>コールセンターは未経験から始められて高時給。残業もほとんどありません。服装に規制も少なく、基本的にシフト制のため、働く時間の幅が広いです。空調の効いたオフィス、専用のデスクで働いてみませんか？</p>
+      </div>
+    </nav>
+    <a class="header-menu-toggle" href="#0">
+      <span class="header-menu-icon"></span>
+    </a>
+  </header>
 
-        <div class="header-logo">
-            <a class="site-logo" href="index.html">
-                <img src="images/logo.svg" alt="Homepage">
-            </a>
-        </div> <!-- end header-logo -->
-
-        <nav class="header-nav">
-
-            <a href="#0" class="header-nav__close" title="close"><span>Close</span></a>
-
-            <div class="header-nav__content">
-                <h3>Transcend Studio</h3>
-                
-                <ul class="header-nav__list">
-                    <li class="current"><a class="smoothscroll"  href="#home" title="home">Home</a></li>
-                    <li><a class="smoothscroll"  href="#about" title="about">About</a></li>
-                    <li><a class="smoothscroll"  href="#services" title="services">Services</a></li>
-                    <li><a class="smoothscroll"  href="#works" title="works">Works</a></li>
-                    <li><a class="smoothscroll"  href="#contact" title="contact">Contact</a></li>
-                </ul>
-    
-                <p>Perspiciatis hic praesentium nesciunt. Et neque a dolorum <a href='#0'>voluptatem</a> porro iusto sequi veritatis libero enim. Iusto id suscipit veritatis neque reprehenderit.</p>
-    
-                <ul class="header-nav__social">
-                    <li>
-                        <a href="#0"><i class="fab fa-facebook"></i></a>
-                    </li>
-                    <li>
-                        <a href="#0"><i class="fab fa-twitter"></i></a>
-                    </li>
-                    <li>
-                        <a href="#0"><i class="fab fa-instagram"></i></a>
-                    </li>
-                    <li>
-                        <a href="#0"><i class="fab fa-behance"></i></a>
-                    </li>
-                    <li>
-                        <a href="#0"><i class="fab fa-dribbble"></i></a>
-                    </li>
-                </ul>
-
-            </div> <!-- end header-nav__content -->
-
-        </nav> <!-- end header-nav -->
-
-        <a class="header-menu-toggle" href="#0">
-            <span class="header-menu-icon"></span>
-        </a>
-
-    </header> <!-- end s-header -->
-
-
-    <!-- home
+  <!-- home
     ================================================== -->
-    <section id="home" class="s-home target-section" data-parallax="scroll" data-image-src="images/hero-bg.jpg" data-natural-width=3000 data-natural-height=2000 data-position-y=top>
-
-        <div class="shadow-overlay"></div>
-
-        <div class="home-content">
-
-            <div class="row home-content__main">
-                <h1>
-                Hello folks, we are <br>
-                Transcend Studio.
-                </h1>
-
-                <p>
-                We create stunning digital experiences <br>
-                that will help your business stand out.
-                </p>
-            </div> <!-- end home-content__main -->
-
-        </div> <!-- end home-content -->
-
-        <ul class="home-sidelinks">
-            <li><a class="smoothscroll" href="#about">About<span>who we are</span></a></li>
-            <li><a class="smoothscroll" href="#services">Services<span>what we do</span></a></li>
-            <li><a  class="smoothscroll" href="#contact">Contact<span>get in touch</span></a></li>
-        </ul> <!-- end home-sidelinks -->
-
-        <ul class="home-social">
-            <li class="home-social-title">Follow Us</li>
-            <li><a href="#0">
-                <i class="fab fa-facebook"></i>
-                <span class="home-social-text">Facebook</span>
-            </a></li>
-            <li><a href="#0">
-                <i class="fab fa-twitter"></i>
-                <span class="home-social-text">Twitter</span>
-            </a></li>
-            <li><a href="#0">
-                <i class="fab fa-linkedin"></i>
-                <span class="home-social-text">LinkedIn</span>
-            </a></li>
-        </ul> <!-- end home-social -->
-
-        <a href="#about" class="home-scroll smoothscroll">
-            <span class="home-scroll__text">Scroll Down</span>
-            <span class="home-scroll__icon"></span>
-        </a> <!-- end home-scroll -->
-
-    </section> <!-- end s-home -->
-
-
-    <!-- about
-    ================================================== -->
-    <section id='about' class="s-about">
-
-        <div class="row section-header" data-aos="fade-up">
-            <div class="col-full">
-                <h3 class="subhead">Who We Are</h3>
-                <h1 class="display-1">We are a group of design driven individuals passionate about creating beautiful UI designs.</h1>
-            </div>
-        </div> <!-- end section-header -->
-
-        <div class="row" data-aos="fade-up">
-            <div class="col-full">
-                <p class="lead">
-                Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Donec rutrum congue leo eget malesuada. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse. 
-                </p>
-            </div>
-        </div> <!-- end about-desc -->
-
-        <div class="row">
-                
-            <div class="about-process process block-1-2 block-tab-full">
-
-                <div class="process__vline-left"></div>
-                <div class="process__vline-right"></div>
-
-                <div class="col-block process__col" data-item="1" data-aos="fade-up">
-                    <div class="process__text">
-                        <h4>Define</h4>
-
-                        <p>
-                        Quos dolores saepe mollitia deserunt accusamus autem reprehenderit. Voluptas facere animi explicabo non quis magni recusandae. 
-                        Numquam debitis pariatur omnis facere unde. Laboriosam minus amet nesciunt est. Et saepe eos maxime tempore quasi deserunt ab.
-                        </p>
-                    </div>
-                </div>
-                <div class="col-block process__col" data-item="2" data-aos="fade-up">
-                    <div class="process__text">
-                        <h4>Design</h4>
-
-                        <p>
-                        Quos dolores saepe mollitia deserunt accusamus autem reprehenderit. Voluptas facere animi explicabo non quis magni recusandae. 
-                        Numquam debitis pariatur omnis facere unde. Laboriosam minus amet nesciunt est. Et saepe eos maxime tempore quasi deserunt ab.
-                        </p>
-                    </div>
-                </div>
-                <div class="col-block process__col" data-item="3" data-aos="fade-up">
-                    <div class="process__text">
-                        <h4>Build</h4>
-
-                        <p>
-                        Quos dolores saepe mollitia deserunt accusamus autem reprehenderit. Voluptas facere animi explicabo non quis magni recusandae. 
-                        Numquam debitis pariatur omnis facere unde. Laboriosam minus amet nesciunt est. Et saepe eos maxime tempore quasi deserunt ab.
-                        </p>
-                    </div>
-                </div>
-                <div class="col-block process__col" data-item="4" data-aos="fade-up">
-                    <div class="process__text">
-                        <h4>Launch</h4>
-
-                        <p>
-                        Quos dolores saepe mollitia deserunt accusamus autem reprehenderit. Voluptas facere animi explicabo non quis magni recusandae. 
-                        Numquam debitis pariatur omnis facere unde. Laboriosam minus amet nesciunt est. Et saepe eos maxime tempore quasi deserunt ab.
-                        </p>
-                    </div>
-                </div>
-
-            </div> <!-- end process -->
-
-        </div> <!-- end about-stats -->
-
-    </section> <!-- end s-about -->
-
-
-    <!-- services
-    ================================================== -->
-    <section id='services' class="s-services light-gray">
-
-        <div class="row section-header" data-aos="fade-up">
-            <div class="col-full">
-                <h3 class="subhead">What We Do</h3>
-                <h1 class="display-1">We have everything you need to launch and grow a successful digital business.</h1>
-            </div>
-        </div> <!-- end section-header -->
-
-        <div class="row" data-aos="fade-up">
-            <div class="col-full">
-                <p class="lead">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse. 
-                </p>
-            </div>
-        </div> <!-- end about-desc -->
-
-        <div class="row services-list block-1-3 block-m-1-2 block-tab-full">
-
-            <div class="col-block service-item " data-aos="fade-up">
-                <div class="service-icon service-icon--brand-identity">
-                    <i class="icon-tv"></i>
-                </div>
-                <div class="service-text">
-                    <h3 class="h4">Brand Identity</h3>
-                    <p>Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium. 
-                    Quo delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis.
-                    Sunt suscipit voluptas ipsa in tempora esse soluta sint.
-                    </p>
-                </div>
-            </div>
-
-            <div class="col-block service-item" data-aos="fade-up">
-                <div class="service-icon  service-icon--illustration">
-                    <i class="icon-group"></i>
-                </div>
-                <div class="service-text">
-                    <h3 class="h4">Illustration</h3>
-                    <p>Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium. 
-                    Quo delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis.
-                    Sunt suscipit voluptas ipsa in tempora esse soluta sint.
-                    </p>
-                </div>
-            </div>
-
-            <div class="col-block service-item" data-aos="fade-up">
-                <div class="service-icon  service-icon--web-design">
-                    <i class="icon-earth"></i>
-                </div>  
-                <div class="service-text">
-                    <h3 class="h4">Web Design</h3>
-                    <p>Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium. 
-                    Quo delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis.
-                    Sunt suscipit voluptas ipsa in tempora esse soluta sint.
-                    </p>
-                </div>
-            </div>
-
-            <div class="col-block service-item" data-aos="fade-up">
-                <div class="service-icon service-icon--product-strategy">
-                    <i class="icon-cube"></i>
-                </div>
-                <div class="service-text">
-                    <h3 class="h4">Product Strategy</h3>
-                    <p>Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium. 
-                    Quo delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis.
-                    Sunt suscipit voluptas ipsa in tempora esse soluta sint.
-                    </p>
-                </div>
-            </div>
-
-            <div class="col-block service-item" data-aos="fade-up">
-                <div class="service-icon  service-icon--ui-design">
-                    <i class="icon-window"></i>
-                </div>
-                <div class="service-text">
-                    <h3 class="h4">UI/UX Design</h3>
-                    <p>Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium. 
-                    Quo delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis.
-                    Sunt suscipit voluptas ipsa in tempora esse soluta sint.
-                    </p>
-                </div>
-            </div>
-    
-            <div class="col-block service-item" data-aos="fade-up">
-                <div class="service-icon service-icon--mobile-dev">
-                    <i class="icon-lego-block"></i>
-                </div>
-                <div class="service-text">
-                    <h3 class="h4">Mobile Development</h3>
-                    <p>Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium. 
-                    Quo delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis.
-                    Sunt suscipit voluptas ipsa in tempora esse soluta sint.
-                    </p>
-                </div>
-            </div>
-
-        </div> <!-- end services-list -->
-
-    </section> <!-- end s-services -->
-
-
-    <!-- works
-    ================================================== -->
-    <section id='works' class="s-works">
-                
-        <div class="row section-header" data-aos="fade-up">
-            <div class="col-full">
-                <h3 class="subhead">Featured Works</h3>
-                <h1 class="display-1">These are some of our recent design projects and we are so excited to show them to you.</h1>
-            </div>
-        </div> <!-- end section-header -->
-
-        <div class="row masonry-wrap">
-            <div class="masonry">
-
-                <div class="masonry__brick" data-aos="fade-up">
-                    <div class="item-folio">
-
-                        <div class="item-folio__thumb">
-                            <a href="images/portfolio/gallery/g-lamp.jpg" class="thumb-link" title="Lamp" data-size="1050x700">
-                                <img src="images/portfolio/lamp.jpg" 
-                                     srcset="images/portfolio/lamp.jpg 1x, images/portfolio/lamp@2x.jpg 2x" alt="">
-                            </a>
-                        </div>
-
-                        <div class="item-folio__text">
-                            <h3 class="item-folio__title">
-                                Lamp
-                            </h3>
-                            <p class="item-folio__cat">
-                                Web Design
-                            </p>
-                        </div>
-
-                        <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
-                            Project Link
-                        </a>
-
-                        <div class="item-folio__caption">
-                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
-                        </div>
-
-                    </div> <!-- end item-folio -->
-                </div> <!-- end masonry__brick -->
-
-                <div class="masonry__brick" data-aos="fade-up">
-                    <div class="item-folio">
-
-                        <div class="item-folio__thumb">
-                            <a href="images/portfolio/gallery/g-salad.jpg" class="thumb-link" title="Salad" data-size="1050x700">
-                                <img src="images/portfolio/salad.jpg" 
-                                     srcset="images/portfolio/salad.jpg 1x, images/portfolio/salad@2x.jpg 2x" alt="">
-                            </a>
-                        </div>
-
-                        <div class="item-folio__text">
-                            <h3 class="item-folio__title">
-                                Salad
-                            </h3>
-                            <p class="item-folio__cat">
-                                Branding
-                            </p>
-                        </div>
-
-                        <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
-                            Project Link
-                        </a>
-
-                        <span class="item-folio__caption">
-                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
-                        </span>
-
-                    </div> <!-- end item-folio -->
-                </div> <!-- end masonry__brick -->
-
-                <div class="masonry__brick" data-aos="fade-up">
-                    <div class="item-folio">
-
-                        <div class="item-folio__thumb">
-                            <a href="images/portfolio/gallery/g-woodcraft.jpg" class="thumb-link" title="Woodcraft" data-size="1050x700">
-                                <img src="images/portfolio/woodcraft.jpg"
-                                     srcset="images/portfolio/woodcraft.jpg 1x, images/portfolio/woodcraft@2x.jpg 2x" alt="">
-                            </a>
-                        </div>
-
-                        <div class="item-folio__text">
-                            <h3 class="item-folio__title">
-                                Woodcraft
-                            </h3>
-                            <p class="item-folio__cat">
-                                Branding
-                            </p>
-                        </div>
-
-                        <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
-                            Project Link
-                        </a>
-
-                        <span class="item-folio__caption">
-                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
-                        </span>
-
-                    </div> <!-- end item-folio -->
-                </div> <!-- end masonry__brick -->
-
-                <div class="masonry__brick" data-aos="fade-up">
-                    <div class="item-folio">
-
-                        <div class="item-folio__thumb">
-                            <a href="images/portfolio/gallery/g-liberty.jpg" class="thumb-link" title="Liberty" data-size="1050x700">
-                                <img src="images/portfolio/liberty.jpg"
-                                     srcset="images/portfolio/liberty.jpg 1x, images/portfolio/liberty@2x.jpg 2x" alt="">
-                            </a>
-                        </div>
-
-                        <div class="item-folio__text">
-                            <h3 class="item-folio__title">
-                                Liberty
-                            </h3>
-                            <p class="item-folio__cat">
-                                Web Development
-                            </p>
-                        </div>
-
-                        <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
-                            Project Link
-                        </a>
-
-                        <span class="item-folio__caption">
-                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
-                        </span>
-
-                    </div> <!-- end item-folio -->
-                </div> <!-- end masonry__brick -->
-
-
-                <div class="masonry__brick" data-aos="fade-up">
-                    <div class="item-folio">
-
-                        <div class="item-folio__thumb">
-                            <a href="images/portfolio/gallery/g-fuji.jpg" class="thumb-link" title="Fuji" data-size="1050x700">
-                                <img src="images/portfolio/fuji.jpg"
-                                     srcset="images/portfolio/fuji.jpg 1x, images/portfolio/fuji@2x.jpg 2x" alt="">
-                            </a>
-                        </div>
-
-                        <div class="item-folio__text">
-                            <h3 class="item-folio__title">
-                                Fuji
-                            </h3>
-                            <p class="item-folio__cat">
-                                Web Design
-                            </p>
-                        </div>
-
-                        <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
-                            Project Link
-                        </a>
-
-                        <span class="item-folio__caption">
-                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
-                        </span>
-
-                    </div> <!-- end item-folio -->
-                </div> <!-- end masonry__brick -->
-
-                <div class="masonry__brick" data-aos="fade-up">
-                    <div class="item-folio">
-
-                        <div class="item-folio__thumb">
-                            <a href="images/portfolio/gallery/g-shutterbug.jpg" class="thumb-link" title="Shutterbug" data-size="1050x700">
-                                <img src="images/portfolio/shutterbug.jpg"
-                                     srcset="images/portfolio/shutterbug.jpg 1x, images/portfolio/shutterbug@2x.jpg 2x" alt="">
-                            </a>
-                        </div>
-
-                        <div class="item-folio__text">
-                            <h3 class="item-folio__title">
-                                Lady Shutterbug
-                            </h3>
-                            <p class="item-folio__cat">
-                                Branding
-                            </p>
-                        </div>
-
-                        <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
-                            Project Link
-                        </a>
-
-                        <span class="item-folio__caption">
-                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
-                        </span>
-
-                    </div> <!-- end item-folio -->
-                </div> <!-- end masonry__brick -->
-
-            </div> <!-- end masonry -->
-        </div> <!-- end masonry-wrap -->
-
-        <div class="testimonials-wrap" data-aos="fade-up">
-
-            <div class="row">
-                <div class="col-full testimonials-header">
-                    <h2 class="h1">What Clients Are Saying.</h2>
-                </div>
-            </div>
-
-            <div class="row testimonials">
-
-                <div class="col-full testimonials__slider">
-
-                    <div class="testimonials__slide">
-                        <img src="images/avatars/user-01.jpg" alt="Author image" class="testimonials__avatar">
-                        <p>Qui ipsam temporibus quisquam velMaiores eos cumque distinctio nam accusantium ipsum. 
-                        Laudantium quia consequatur molestias delectus culpa facere hic dolores aperiam. Accusantium quos qui praesentium corpori.</p>
-                        <div class="testimonials__author">
-                            Tim Cook
-                            <span>CEO, Apple</span>
-                        </div>
-                    </div> <!-- end testimonials__slide -->
-
-                    <div class="testimonials__slide">
-                        <img src="images/avatars/user-05.jpg" alt="Author image" class="testimonials__avatar">
-                        <p>Excepturi nam cupiditate culpa doloremque deleniti repellat. Veniam quos repellat voluptas animi adipisci.
-                        Nisi eaque consequatur. Quasi voluptas eius distinctio. Atque eos maxime. Qui ipsam temporibus quisquam vel.</p>
-                        <div class="testimonials__author">
-                            Sundar Pichai
-                            <span>CEO, Google</span>
-                        </div>
-                    </div> <!-- end testimonials__slide -->
-
-                    <div class="testimonials__slide">
-                        <img src="images/avatars/user-02.jpg" alt="Author image" class="testimonials__avatar">
-                        <p>Repellat dignissimos libero. Qui sed at corrupti expedita voluptas odit. Nihil ea quia nesciunt. Ducimus aut sed ipsam.  
-                        Autem eaque officia cum exercitationem sunt voluptatum accusamus. Quasi voluptas eius distinctio.</p>
-                        <div class="testimonials__author">
-                            Satya Nadella
-                            <span>CEO, Microsoft</span>
-                        </div>
-                    </div> <!-- end testimonials__slide -->
-                    
-                </div> <!-- end testimonials__slider -->
-
-            </div> <!-- end testimonials -->
-
-        </div> <!-- end testimonials-wrap -->
-
-    </section> <!-- end s-works -->
-
-
-    <!-- stats
-    ================================================== -->
-    <section id="stats" class="s-stats">
-
-        <div class="row stats block-1-4 block-m-1-2 block-mob-full" data-aos="fade-up">
-                
-            <div class="col-block stats__col ">
-                <div class="stats__count">129</div>
-                <h5>Awards Received</h5>
-            </div>
-            <div class="col-block stats__col">
-                <div class="stats__count">1507</div>
-                <h5>Cups of Coffee</h5>
-            </div>
-            <div class="col-block stats__col">
-                <div class="stats__count">108</div>
-                <h5>Projects Completed</h5>
-            </div>
-            <div class="col-block stats__col">
-                <div class="stats__count">103</div>
-                <h5>Happy Clients</h5> 
-            </div>
-
-        </div> <!-- end stats -->
-
-    </section> <!-- end s-stats -->
-
-
-    <!-- contact
-    ================================================== -->
-    <section id="contact" class="s-contact">
-
-        <div class="row section-header" data-aos="fade-up">
-            <div class="col-full">
-                <h3 class="subhead subhead--light">Contact Us</h3>
-                <h1 class="display-1 display-1--light">Get in touch and let's make something great together. Let's turn your idea on an even greater product.</h1>
-            </div>
-        </div> <!-- end section-header -->
-
-        <div class="row">
-
-            <div class="col-full contact-main" data-aos="fade-up">
-                <p>
-                <a href="mailto:#0" class="contact-email">hello@transcend-studio.com</a>
-                <span class="contact-number">+1 (917) 123 456  /  +1 (917) 333 987</span>
-                </p>
-            </div> <!-- end contact-main -->
-
-        </div> <!-- end row -->
-
-        <div class="row">
-
-            <div class="col-five tab-full contact-secondary" data-aos="fade-up">
-                <h3 class="subhead subhead--light">Where To Find Us</h3>
-
-                <p class="contact-address">
-                    1600 Amphitheatre Parkway<br>
-                    Mountain View, CA<br>
-                    94043 US
-                </p>
-            </div> <!-- end contact-secondary -->
-
-            <div class="col-five tab-full contact-secondary" data-aos="fade-up">
-                <h3 class="subhead subhead--light">Follow Us</h3>
-
-                <ul class="contact-social">
-                    <li>
-                        <a href="#0"><i class="fab fa-facebook"></i></a>
-                    </li>
-                    <li>
-                        <a href="#0"><i class="fab fa-twitter"></i></a>
-                    </li>
-                    <li>
-                        <a href="#0"><i class="fab fa-instagram"></i></a>
-                    </li>
-                    <li>
-                        <a href="#0"><i class="fab fa-behance"></i></a>
-                    </li>
-                    <li>
-                        <a href="#0"><i class="fab fa-dribbble"></i></a>
-                    </li>
-                </ul> <!-- end contact-social -->
-
-                <div class="contact-subscribe">
-                    <form id="mc-form" class="group mc-form" novalidate="true">
-                        <input type="email" value="" name="EMAIL" class="email" id="mc-email" placeholder="Email Address" required="">
-                        <input type="submit" name="subscribe" value="Subscribe">
-                        <label for="mc-email" class="subscribe-message"></label>
-                    </form>
-                </div> <!-- end contact-subscribe -->
-            </div> <!-- end contact-secondary -->
-
-        </div> <!-- end row -->
-
-        <div class="row">
-            <div class="col-full cl-copyright">
-                <span><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></span> 
-            </div>
-        </div>
-
-        <div class="cl-go-top">
-            <a class="smoothscroll" title="Back to Top" href="#top"><i class="icon-arrow-up" aria-hidden="true"></i></a>
-        </div>
-
-    </section> <!-- end s-contact -->
-
-
-    <!-- photoswipe background
-    ================================================== -->
-    <div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
-
-        <div class="pswp__bg"></div>
-        <div class="pswp__scroll-wrap">
-
-            <div class="pswp__container">
-                <div class="pswp__item"></div>
-                <div class="pswp__item"></div>
-                <div class="pswp__item"></div>
-            </div>
-
-            <div class="pswp__ui pswp__ui--hidden">
-                <div class="pswp__top-bar">
-                    <div class="pswp__counter"></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button> <button class="pswp__button pswp__button--share" title=
-                    "Share"></button> <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button> <button class="pswp__button pswp__button--zoom" title=
-                    "Zoom in/out"></button>
-                    <div class="pswp__preloader">
-                        <div class="pswp__preloader__icn">
-                            <div class="pswp__preloader__cut">
-                                <div class="pswp__preloader__donut"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-                    <div class="pswp__share-tooltip"></div>
-                </div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button> <button class="pswp__button pswp__button--arrow--right" title=
-                "Next (arrow right)"></button>
-                <div class="pswp__caption">
-                    <div class="pswp__caption__center"></div>
-                </div>
-            </div>
-
-        </div>
-
-    </div> <!-- end photoSwipe background -->
-
-
-    <!-- preloader
-    ================================================== -->
-    <div id="preloader">
-        <div id="loader">            
-        </div>
+  <section id="home" class="s-home target-section" data-parallax="scroll" data-image-src="images/hero-bg.jpg" data-natural-width="3000" data-natural-height="2000" data-position-y="top">
+    <div class="shadow-overlay"></div>
+    <div class="home-content">
+      <div class="row home-content__main">
+        <h1>コールセンターで働く！</h1>
+        <p>コールセンターのお仕事の内容から、勤務を通じて見つけられるスキルのこと、研修内容について、勤務時の服装などをわかりやすく説明いたします。</p>
+      </div>
+    </div>
+    <ul class="home-sidelinks">
+      <li><a href="#search" class="smoothscroll">仕事検索<span>コールセンターのお仕事を探す</span></a></li>
+      <li><a href="https://www.olp.co.jp/staff/" target="_blank">支店検索<span>登録だけでもOK！</span></a></li>
+      <li><a href="https://www.olp.co.jp/agent/" target="_blank">転職支援サービス<span>正社員での転職希望の方はこちら</span></a></li>
+    </ul>
+    <a href="#search" class="home-scroll smoothscroll">
+      <span class="home-scroll__text">Scroll Down</span>
+      <span class="home-scroll__icon"></span>
+    </a>
+  </section>
+
+  <!-- search
+  ================================================== -->
+  <section id='search' class="s-about">
+    <div class="row section-header">
+      <div class="col-full">
+        <h3 class="subhead">コールセンターの仕事検索</h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-five tab-full cl-custom-select">
+        <label for="srh_ken_param">勤務地（都道府県）</label>
+        <select id="srh_ken_param" class="full-width">
+          <option value="">---</option>
+          <option value="1">北海道</option>
+          <option value="2">青森県</option>
+          <option value="3">岩手県</option>
+          <option value="4">宮城県</option>
+          <option value="5">秋田県</option>
+          <option value="6">山形県</option>
+          <option value="7">福島県</option>
+          <option value="8">茨城県</option>
+          <option value="9">栃木県</option>
+          <option value="10">群馬県</option>
+          <option value="11">埼玉県</option>
+          <option value="12">千葉県</option>
+          <option value="13">東京都</option>
+          <option value="14">神奈川県</option>
+          <option value="15">新潟県</option>
+          <option value="16">富山県</option>
+          <option value="17">石川県</option>
+          <option value="18">福井県</option>
+          <option value="19">山梨県</option>
+          <option value="20">長野県</option>
+          <option value="21">岐阜県</option>
+          <option value="22">静岡県</option>
+          <option value="23">愛知県</option>
+          <option value="24">三重県</option>
+          <option value="25">滋賀県</option>
+          <option value="26">京都府</option>
+          <option value="27">大阪府</option>
+          <option value="28">兵庫県</option>
+          <option value="29">奈良県</option>
+          <option value="30">和歌山県</option>
+          <option value="31">鳥取県</option>
+          <option value="32">島根県</option>
+          <option value="33">岡山県</option>
+          <option value="34">広島県</option>
+          <option value="35">山口県</option>
+          <option value="36">徳島県</option>
+          <option value="37">香川県</option>
+          <option value="38">愛媛県</option>
+          <option value="39">高知県</option>
+          <option value="40">福岡県</option>
+          <option value="41">佐賀県</option>
+          <option value="42">長崎県</option>
+          <option value="43">熊本県</option>
+          <option value="44">大分県</option>
+          <option value="45">宮崎県</option>
+          <option value="46">鹿児島県</option>
+          <option value="47">沖縄県</option>
+        </select>
+      </div>
+      <div class="col-five tab-full">
+        <label for="sfw">キーワード</label>
+        <input type="text" class="full-width" id="sfw">
+      </div>
+      <div class="col-two tab-full">
+        <label for="sfw">検索</label>
+        <a class="btn btn-primary" href="https://sigotora.jp/index.cfm?fuseaction=job.joblist&srh_jobtype_param=1&srh_jobtype_child_param=4&srh_jobtype_child_param=5" target="_blank" id="test">求人検索</a>
+      </div>
     </div>
 
+  </section>
 
-    <!-- Java Script
+  <!-- about
+  ================================================== -->
+  <section id='about' class="s-about">
+    <div class="row section-header" data-aos="fade-up">
+      <div class="col-full">
+        <h3 class="subhead">コールセンターの業務</h3>
+        <h1 class="display-2">コールセンターの業務は大きく受信と発信に分かれます。</h1>
+      </div>
+    </div>
+    <div class="row" data-aos="fade-up">
+      <div class="col-full">
+        <p class="lead">
+          受信はお客様からの電話に応対し商品などの説明、受注や予約・各種お問合せの対応などを行い、発信はお客様に電話をかけ商品に対する関心の有無の確認します。座って電話の受け答えをするのが職務内容であるため、初めてオフィスワークをする方やお話をするのが好きな方に人気の職種です。また、シフト制や残業なしのところも多いので自分の時間を確保したい方も多く働かれています。
+        </p>
+      </div>
+    </div>
+    <div class="row" data-aos="fade-up">
+      <div class="col-six tab-full">
+        <h4>受信業務【インバウンド】</h4>
+        <dl>
+          <dt><strong>やること</strong></dt>
+          <dd>受注（ショッピング等）・予約（旅行・チケット等）・お問い合わせ対応・商品の操作説明・トラブル時のヘルプデスク　など</dd>
+          <dt><strong>主な業界</strong></dt>
+          <dd>メーカー・保険会社・カード会社・パソコン・ソフトウェア・携帯電話・電化製品・インターネット接続　など</dd>
+        </dl>
+      </div>
+      <div class="col-six tab-full">
+        <h4>発信業務【アウトバウンド】</h4>
+        <dl>
+          <dt><strong>やること</strong></dt>
+          <dd>受注内容の確認・商品の紹介、PR・アンケート調査　など</dd>
+          <dt><strong>主な業界</strong></dt>
+          <dd>学習商材・通信サービス・広告代理店　など</dd>
+        </dl>
+      </div>
+    </div>
+    <div class="row" data-aos="fade-up">
+      <div class="col-full">
+        <p>&nbsp;</p>
+        <p><a class="btn btn--primary full-width smoothscroll" href="#inbound">インバウンド・アウトバウンドについて<i class="fa fa-forward" aria-hidden="true"></i></a></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Inbound Outbound
+  ================================================== -->
+  <section id='inbound' class="s-about">
+    <div class="row section-header" data-aos="fade-up">
+      <div class="col-full">
+        <h3 class="subhead">インバウンド・アウトバウンドについて</h3>
+        <h1 class="display-1">コールセンターのインバウンド業務</h1>
+      </div>
+    </div>
+    <div class="row" data-aos="fade-up">
+      <div class="col-full">
+        <p class="lead">
+          コールセンター業務におけるインバウンドという言葉は、お客様からの電話を受信することを表しています。電話をかけるのではなく、お客様から電話がかかってくるのを待ち、対応することを表します。
+        </p>
+      </div>
+    </div>
+    <div class="row" data-aos="fade-up">
+      <div class="col-six tab-full">
+        <h4>インバウンドの業務内容例</h4>
+        <ul>
+          <li>商品やサービスに関する利用方法、不具合等の各種相談窓口</li>
+          <li>商品やサービスの申し込み、注文受付業務</li>
+          <li>料金や請求に関する問い合わせ窓口</li>
+          <li>クレーム窓口</li>
+        </ul>
+      </div>
+      <div class="col-six tab-full">
+        <h4>インバウンドに向いている人</h4>
+        <ul>
+          <li>困っている状況にある人（お客様）に、手を差し伸べる行為やトラブル解決にやりがいを感じる人</li>
+          <li>コツコツとスキルや経験を積むことが得意で実直な人</li>
+          <li>大勢のオペレーターをマネジメントし、生産性・品質管理や人的マネジメントのノウハウを蓄積したい人</li>
+        </ul>
+      </div>
+    </div>
+    <div class="row" data-aos="fade-up">
+      <div class="col-full tab-full">
+        <p><img src="images/img01.jpg" class="pull-left" width="400" alt="コールセンターインバウンド業務"></p>
+        <p>インバウンド業務は、電話をかけてくる対象者が不特定多数な上、一定スキル・知識をクリアした人材のみ対応できるのが基本です。平たく言うと、どんな人が、何の目的／要件で、電話をかけてきたのか電話に出て初めて判別できるため、インバウンド業務のオペレーターは、『業務知識や対応範囲に広く対処するオールマイティな業務スキル』が求められます。</p>
+        <p>このため、窓口デビューするまでに予め覚える「業務知識」や「対応内容・処理フロー」が広範囲にわたり、初期研修（座学研修・OJT）のボリュームが一般的に多くなるのが特徴です。さらに、デビュー後もモニタリングやコーチングを繰り返し実施し、トークスキルや生産性指導（KPI)の向上を継続的に目指すことが求められます。</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="s-about">
+    <div class="row section-header" data-aos="fade-up">
+      <div class="col-full">
+        <h3 class="subhead">インバウンド・アウトバウンドについて</h3>
+        <h1 class="display-1">コールセンターのアウトバウンド業務</h1>
+      </div>
+    </div>
+    <div class="row" data-aos="fade-up">
+      <div class="col-full">
+        <p class="lead">
+          コールセンター業務におけるアウトバウンドとは、発信業務ともいわれ、企業から顧客へ情報を発信する仕組みです。
+        </p>
+      </div>
+    </div>
+    <div class="row" data-aos="fade-up">
+      <div class="col-six tab-full">
+        <h4>アウトバウンドの業務内容例</h4>
+        <ul>
+          <li>世論調査やユーザーアンケート等のサンプル採取</li>
+          <li>商品やサービスの申し込みや注文の獲得</li>
+          <li>料金未納者への二次・三次督促</li>
+          <li>セールスアポイント獲得</li>
+        </ul>
+      </div>
+      <div class="col-six tab-full">
+        <h4>アウトバウンドに向いている人</h4>
+        <ul>
+          <li>1つの案件、キャンペーン毎に期限が決まっているため、メリハリが利きやすく、ある意味ゲーム感覚で業務遂行に励む人</li>
+          <li>成果に応じた「インセンティブ支給」がある案件も多く、達成意欲や自分の実力に応じて高収入を期待したい人</li>
+          <li>ガチャ切り、対象者からの理不尽な対応に対し、特段ストレスを感じなく心理的にタフな人</li>
+        </ul>
+      </div>
+    </div>
+    <div class="row" data-aos="fade-up">
+      <div class="col-full tab-full">
+        <p><img src="images/img02.jpg" class="pull-left" width="400" alt="コールセンターインバウンド業務"></p>
+        <p>アウトバウンド業務は、目的に沿ってこちらから対象者へアプローチするため、計画的に業務を組み立てやすいのが特徴です。また、一つの案件・キャンペーン毎に、期限が決まっているケースが多いかと思います。覚える「業務知識」と答えるべき「内容・範囲」が絞られており、決められたスクリプトに沿って業務を進めるため、比較的初期研修のボリュームは少ないことが多いでしょう。</p>
+        <p>大規模なコールセンターでは、ダイヤラーと呼ばれる自動発信システムを用いた業務効率化が進んでおり、短い期間で機械的に対話～完了させる大量発信業務が可能である場合が多いです。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- search
+  ================================================== -->
+  <section class="s-about">
+    <div class="row section-header">
+      <div class="col-full">
+        <h3 class="subhead">コールセンターの仕事検索</h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-five tab-full cl-custom-select">
+        <label for="srh_ken_param">勤務地（都道府県）</label>
+        <select id="srh_ken_param" class="full-width">
+          <option value="">---</option>
+          <option value="1">北海道</option>
+          <option value="2">青森県</option>
+          <option value="3">岩手県</option>
+          <option value="4">宮城県</option>
+          <option value="5">秋田県</option>
+          <option value="6">山形県</option>
+          <option value="7">福島県</option>
+          <option value="8">茨城県</option>
+          <option value="9">栃木県</option>
+          <option value="10">群馬県</option>
+          <option value="11">埼玉県</option>
+          <option value="12">千葉県</option>
+          <option value="13">東京都</option>
+          <option value="14">神奈川県</option>
+          <option value="15">新潟県</option>
+          <option value="16">富山県</option>
+          <option value="17">石川県</option>
+          <option value="18">福井県</option>
+          <option value="19">山梨県</option>
+          <option value="20">長野県</option>
+          <option value="21">岐阜県</option>
+          <option value="22">静岡県</option>
+          <option value="23">愛知県</option>
+          <option value="24">三重県</option>
+          <option value="25">滋賀県</option>
+          <option value="26">京都府</option>
+          <option value="27">大阪府</option>
+          <option value="28">兵庫県</option>
+          <option value="29">奈良県</option>
+          <option value="30">和歌山県</option>
+          <option value="31">鳥取県</option>
+          <option value="32">島根県</option>
+          <option value="33">岡山県</option>
+          <option value="34">広島県</option>
+          <option value="35">山口県</option>
+          <option value="36">徳島県</option>
+          <option value="37">香川県</option>
+          <option value="38">愛媛県</option>
+          <option value="39">高知県</option>
+          <option value="40">福岡県</option>
+          <option value="41">佐賀県</option>
+          <option value="42">長崎県</option>
+          <option value="43">熊本県</option>
+          <option value="44">大分県</option>
+          <option value="45">宮崎県</option>
+          <option value="46">鹿児島県</option>
+          <option value="47">沖縄県</option>
+        </select>
+      </div>
+      <div class="col-five tab-full">
+        <label for="sfw">キーワード</label>
+        <input type="text" class="full-width" id="sfw">
+      </div>
+      <div class="col-two tab-full">
+        <label for="sfw">検索</label>
+        <a class="btn btn-primary" href="https://sigotora.jp/index.cfm?fuseaction=job.joblist&srh_jobtype_param=1&srh_jobtype_child_param=4&srh_jobtype_child_param=5" target="_blank" id="test">求人検索</a>
+      </div>
+    </div>
+
+  </section>
+
+
+  <!-- skill
+  ================================================== -->
+  <section id='skill' class="s-about">
+
+    <div class="row section-header" data-aos="fade-up">
+      <div class="col-full">
+        <h3 class="subhead">発信、受信、クレーム対応まで！</h3>
+        <h1 class="display-1">コールセンター勤務で身につくスキル</h1>
+      </div>
+    </div>
+
+    <div class="row" data-aos="fade-up">
+      <div class="col-full">
+        <p class="lead">
+          コールセンターのお仕事は、電話をかけるアウトバウンドと、電話を受けるインバウンドに大きく分かれます。それぞれの仕事には特徴があり、見つけられるスキルも異なってきます。いずれも、基本的な電話応対のスキル以上のものを身につけることが可能な職種です。
+        </p>
+      </div>
+    </div>
+
+    <div class="row">
+
+      <div class="about-process process block-1-2 block-tab-full">
+
+        <div class="process__vline-left"></div>
+        <div class="process__vline-right"></div>
+
+        <div class="col-block process__col" data-item="1" data-aos="fade-up">
+          <div class="process__text">
+            <h4>相手が興味を引く会話力</h4>
+
+            <p>発信業務、アウトバウンドとは、アンケートや営業の電話をする仕事です。お客様にすぐ電話を切られないようにするためには、マニュアル以上の会話をして相手を引きつける工夫が必要です。</p>
+
+            <p>相手の反応を感じ取りながら話をすすめて本題へとつなげる、という対応を繰り返す中で、会話力が身についていきます。会話力は、社会に出た時に営業の仕事の中でも役立てられるでしょう。</p>
+
+            <p>受信業務、インバウンドは、企業の商品やサービスに対する問い合わせなどがメインの業務となるため、商品やサービスについて、事前によく知っておいた上で、相手にわかりやすく説明できるように準備しておく必要があります。</p>
+
+            <p>自分が知っていることをわかりやすく相手に伝えるというのは、思っている以上に難しいものです。しかし、相手が必要としている情報を把握した上で、誰に対してもきちんと説明できるようになれば、営業の仕事の際に、商品の魅力を正確に伝えられるようになるでしょう。</p>
+          </div>
+        </div>
+        <div class="col-block process__col" data-item="2" data-aos="fade-up">
+          <div class="process__text">
+            <h4>冷静に対応する力、判断力</h4>
+
+            <p>クレーム対応は、お客様からの苦情を的確に受け付ける業務です。心を込めて謝ることは大切ですが、コールセンターにはノウハウが蓄積されているので、対応方法について所定のマニュアルがあります。また、お客様に応じて対応を変える必要があるため、クレーム処理のノウハウと、柔軟な対応力を身につけることができるのです。</p>
+
+            <p>正確で丁寧な言葉遣いはもちろんのこと、たとえお客様が怒っていたとしても、「どのような応対をすればお客様にご理解いただけるのか」と考えることが大切です。快く納得してもらうためにも常に相手の言葉に耳を傾け、こちらも真摯に対応していることを理解して貰う必要があるでしょう。</p>
+
+            <p>クレーム対応は、マニュアルにない対応を迫られるときや、予期していなかったことが往々にして起こります。一つひとつの言葉へ丁寧な対応を重ねていくことで、どのようなときでも冷静に判断できる力が身につくでしょう。</p>
+          </div>
+        </div>
+        <div class="col-block process__col" data-item="3" data-aos="fade-up">
+          <div class="process__text">
+            <h4>基本的なビジネスマナー</h4>
+
+            <p>お客様からのいろいろなお問い合わせに対応するコールセンターは会社の顔そのもの。会社の顔としてお客様と接するコールセンタのお仕事なら、研修や日々の業務を通して、正しい日本語や敬語の使い方など、一流のビジネスマナーを身につけることができます。</p>
+
+            <p>美しい話し方、相手に好印象を与えるトークなど、ビジネスの場はもちろん、プライベートでも、あなたの魅力をさらにアップさせてくれるでしょう。</p>
+          </div>
+        </div>
+        <div class="col-block process__col" data-item="4" data-aos="fade-up">
+          <div class="process__text">
+            <h4>パソコンスキル</h4>
+
+            <p>実は、コールセンターの仕事をはじめるスタッフ様の中には、パソコンが苦手、という方が多かったりします。</p>
+
+            <p>「いずれは事務職に挑戦したいけど今はちょっと自信がなくて…」という方にピッタリなのが、コールセンターのお仕事なのです。</p>
+
+            <p>殆どの業務で履歴入力やエクセルを使う書類の作成などがあるため、パソコンスキルの基本を身につけることができます。</p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- search
+  ================================================== -->
+  <section class="s-about">
+    <div class="row section-header">
+      <div class="col-full">
+        <h3 class="subhead">コールセンターの仕事検索</h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-five tab-full cl-custom-select">
+        <label for="srh_ken_param">勤務地（都道府県）</label>
+        <select id="srh_ken_param" class="full-width">
+          <option value="">---</option>
+          <option value="1">北海道</option>
+          <option value="2">青森県</option>
+          <option value="3">岩手県</option>
+          <option value="4">宮城県</option>
+          <option value="5">秋田県</option>
+          <option value="6">山形県</option>
+          <option value="7">福島県</option>
+          <option value="8">茨城県</option>
+          <option value="9">栃木県</option>
+          <option value="10">群馬県</option>
+          <option value="11">埼玉県</option>
+          <option value="12">千葉県</option>
+          <option value="13">東京都</option>
+          <option value="14">神奈川県</option>
+          <option value="15">新潟県</option>
+          <option value="16">富山県</option>
+          <option value="17">石川県</option>
+          <option value="18">福井県</option>
+          <option value="19">山梨県</option>
+          <option value="20">長野県</option>
+          <option value="21">岐阜県</option>
+          <option value="22">静岡県</option>
+          <option value="23">愛知県</option>
+          <option value="24">三重県</option>
+          <option value="25">滋賀県</option>
+          <option value="26">京都府</option>
+          <option value="27">大阪府</option>
+          <option value="28">兵庫県</option>
+          <option value="29">奈良県</option>
+          <option value="30">和歌山県</option>
+          <option value="31">鳥取県</option>
+          <option value="32">島根県</option>
+          <option value="33">岡山県</option>
+          <option value="34">広島県</option>
+          <option value="35">山口県</option>
+          <option value="36">徳島県</option>
+          <option value="37">香川県</option>
+          <option value="38">愛媛県</option>
+          <option value="39">高知県</option>
+          <option value="40">福岡県</option>
+          <option value="41">佐賀県</option>
+          <option value="42">長崎県</option>
+          <option value="43">熊本県</option>
+          <option value="44">大分県</option>
+          <option value="45">宮崎県</option>
+          <option value="46">鹿児島県</option>
+          <option value="47">沖縄県</option>
+        </select>
+      </div>
+      <div class="col-five tab-full">
+        <label for="sfw">キーワード</label>
+        <input type="text" class="full-width" id="sfw">
+      </div>
+      <div class="col-two tab-full">
+        <label for="sfw">検索</label>
+        <a class="btn btn-primary" href="https://sigotora.jp/index.cfm?fuseaction=job.joblist&srh_jobtype_param=1&srh_jobtype_child_param=4&srh_jobtype_child_param=5" target="_blank" id="test">求人検索</a>
+      </div>
+    </div>
+
+  </section>
+
+
+  <!-- mikeiken
+  ================================================== -->
+  <section id='mikeiken' class="s-about">
+    <div class="row section-header" data-aos="fade-up">
+      <div class="col-full">
+        <h3 class="subhead">未経験での就業について</h3>
+        <h1 class="display-1">コールセンター未経験でも就業できる？</h1>
+      </div>
+    </div>
+    <div class="row" data-aos="fade-up">
+      <div class="col-full tab-full">
+        <p><img src="images/img70p.png" class="pull-left" width="400" alt="未経験"></p>
+        <p class="lead">約70％の方が未経験からスタートしています。</p>
+        <p>（オープンループパートナーズ2018年実績より）</p>
+        <p>未経験でも大丈夫。約70％の方が未経験からスタートしています。まったく違う職種への転職の方や、復職の方でもしっかりとした研修があるから、未経験でも安心して働けます。</p>
+      </div>
+    </div>
+
+    <div class="testimonials-wrap" data-aos="fade-up">
+      <div class="row">
+        <div class="col-full testimonials-header">
+          <h2 class="h1">コールセンターで働く前は何をしていましたか？</h2>
+          <p class="small">コールセンターで働く先輩の声</p>
+        </div>
+      </div>
+      <div class="row testimonials">
+        <div class="col-full testimonials__slider">
+          <div class="testimonials__slide">
+            <img src="images/avatars/user-01.jpg" alt="Author image" class="testimonials__avatar">
+            <p>一日中立ちっぱなしの販売職に体力の限界を感じて、テレマの仕事を始めたのがきっかけでしたが、いろいろなお客様と接してきた経験が活かせる仕事だと思います。収入面がアップしたのも正直うれしいです。</p>
+            <div class="testimonials__author">
+              前職：アパレル販売
+              <span>32歳・女性／コールセンター歴：1年6ヶ月</span>
+            </div>
+          </div>
+          <div class="testimonials__slide">
+            <img src="images/avatars/user-02.jpg" alt="Author image" class="testimonials__avatar">
+            <p>ネイリストを目指しているので、学校と両立できる仕事ということでコールセンターの仕事を選びました。今のセンターではシフトの希望が出せたり、ネイルや服装も自由なので、自分の条件にピッタリです。</p>
+            <div class="testimonials__author">
+              前職：美容師
+              <span>22歳・女性／コールセンター歴：8ヶ月</span>
+            </div>
+          </div>
+          <div class="testimonials__slide">
+            <img src="images/avatars/user-03.jpg" alt="Author image" class="testimonials__avatar">
+            <p>前職では夜勤もあったため勤務時間が不定期で、肉体的にも精神的も疲れがとれなかったです。年齢的にも体がついていかなくなり、コールセンターへ転職をしました。未経験の方も、しっかりとした研修と先輩のフォローがあるので、安心して働けますよ。</p>
+            <div class="testimonials__author">
+              前職：介護職
+              <span>38歳・女性／コールセンター歴：2年2ヶ月</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="testimonials-wrap" data-aos="fade-up">
+      <div class="row">
+        <div class="col-full testimonials-header">
+          <h2 class="h1">研修ってどれくらいやるの？</h2>
+          <p class="small">企業によって内容や期間が異なりますが、基本的には以下のような流れです。</p>
+        </div>
+      </div>
+      <div class="row add-bottom">
+        <div class="col-twelve">
+          <dl>
+            <dt><strong>１、基本知識（２日間）</strong></dt>
+            <dd>電話対応、ビジネスマナーの基礎知識を学びます。</dd>
+            <dt><strong>２、業務研修（１４日間）</strong></dt>
+            <dd>商品知識など、そのコールセンターで働くために必要な知識やパソコンの操作方法を学びます。実際の業務を想定したロールプレイングもこの期間に行います。</dd>
+            <dt><strong>３、実習（５日間）</strong></dt>
+            <dd>今まで勉強してきたことを先輩スタッフと一緒に実践します。お客様と初めて接する機会ですが、隣に先輩スタッフがついているので安心です。</dd>
+            <dt><strong>４、お仕事開始</strong></dt>
+            <dd>これで研修は修了です。最初は緊張するかもしれませんが、研修内容を活かして少しずつ慣れていきましょう。</dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- search
+  ================================================== -->
+  <section class="s-about">
+    <div class="row section-header">
+      <div class="col-full">
+        <h3 class="subhead">コールセンターの仕事検索</h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-five tab-full cl-custom-select">
+        <label for="srh_ken_param">勤務地（都道府県）</label>
+        <select id="srh_ken_param" class="full-width">
+          <option value="">---</option>
+          <option value="1">北海道</option>
+          <option value="2">青森県</option>
+          <option value="3">岩手県</option>
+          <option value="4">宮城県</option>
+          <option value="5">秋田県</option>
+          <option value="6">山形県</option>
+          <option value="7">福島県</option>
+          <option value="8">茨城県</option>
+          <option value="9">栃木県</option>
+          <option value="10">群馬県</option>
+          <option value="11">埼玉県</option>
+          <option value="12">千葉県</option>
+          <option value="13">東京都</option>
+          <option value="14">神奈川県</option>
+          <option value="15">新潟県</option>
+          <option value="16">富山県</option>
+          <option value="17">石川県</option>
+          <option value="18">福井県</option>
+          <option value="19">山梨県</option>
+          <option value="20">長野県</option>
+          <option value="21">岐阜県</option>
+          <option value="22">静岡県</option>
+          <option value="23">愛知県</option>
+          <option value="24">三重県</option>
+          <option value="25">滋賀県</option>
+          <option value="26">京都府</option>
+          <option value="27">大阪府</option>
+          <option value="28">兵庫県</option>
+          <option value="29">奈良県</option>
+          <option value="30">和歌山県</option>
+          <option value="31">鳥取県</option>
+          <option value="32">島根県</option>
+          <option value="33">岡山県</option>
+          <option value="34">広島県</option>
+          <option value="35">山口県</option>
+          <option value="36">徳島県</option>
+          <option value="37">香川県</option>
+          <option value="38">愛媛県</option>
+          <option value="39">高知県</option>
+          <option value="40">福岡県</option>
+          <option value="41">佐賀県</option>
+          <option value="42">長崎県</option>
+          <option value="43">熊本県</option>
+          <option value="44">大分県</option>
+          <option value="45">宮崎県</option>
+          <option value="46">鹿児島県</option>
+          <option value="47">沖縄県</option>
+        </select>
+      </div>
+      <div class="col-five tab-full">
+        <label for="sfw">キーワード</label>
+        <input type="text" class="full-width" id="sfw">
+      </div>
+      <div class="col-two tab-full">
+        <label for="sfw">検索</label>
+        <a class="btn btn-primary" href="https://sigotora.jp/index.cfm?fuseaction=job.joblist&srh_jobtype_param=1&srh_jobtype_child_param=4&srh_jobtype_child_param=5" target="_blank" id="test">求人検索</a>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- fashion
+  ================================================== -->
+  <section id='fashion' class="s-about">
+    <div class="row section-header" data-aos="fade-up">
+      <div class="col-full">
+        <h3 class="subhead">コールセンターで働く服装について</h3>
+        <h1 class="display-1">先輩スタッフのファッションを少しだけ紹介します。</h1>
+      </div>
+    </div>
+    <div class="row" data-aos="fade-up">
+      <div class="col-full">
+        <p class="lead">
+          コールセンターでは、お客様との直接の対面がないので、自由なファッションを楽しみながら働くことが可能です。女の子らしいガーリーなファッションやロックなファッション、ラフなファッションなど、みなさんおしゃれも楽しみながらお仕事をされている印象があります。あなたも好きなファッションで働いてみませんか。
+        </p>
+      </div>
+    </div>
+    <div class="row" data-aos="fade-up">
+      <div class="col-six tab-full">
+        <img src="images/photocat01.png" alt="コールセンターで働く服装">
+        <dl>
+          <dt><strong>受信オペレーター：22歳</strong></dt>
+          <dd>ゆったりなファッションが大好きで、ラフでもおしゃれを大事にして、毎日洋服を選んでいます。</dd>
+        </dl>
+      </div>
+      <div class="col-six tab-full">
+        <img src="images/photocat02.png" alt="コールセンターで働く服装">
+        <dl>
+          <dt><strong>受信オペレーター：28歳</strong></dt>
+          <dd>お仕事終わりでもおしゃれしたまま街へ出かけられてうれしいです。</dd>
+        </dl>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- search
+  ================================================== -->
+  <section class="s-about">
+    <div class="row section-header">
+      <div class="col-full">
+        <h3 class="subhead">コールセンターの仕事検索</h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-five tab-full cl-custom-select">
+        <label for="srh_ken_param">勤務地（都道府県）</label>
+        <select id="srh_ken_param" class="full-width">
+          <option value="">---</option>
+          <option value="1">北海道</option>
+          <option value="2">青森県</option>
+          <option value="3">岩手県</option>
+          <option value="4">宮城県</option>
+          <option value="5">秋田県</option>
+          <option value="6">山形県</option>
+          <option value="7">福島県</option>
+          <option value="8">茨城県</option>
+          <option value="9">栃木県</option>
+          <option value="10">群馬県</option>
+          <option value="11">埼玉県</option>
+          <option value="12">千葉県</option>
+          <option value="13">東京都</option>
+          <option value="14">神奈川県</option>
+          <option value="15">新潟県</option>
+          <option value="16">富山県</option>
+          <option value="17">石川県</option>
+          <option value="18">福井県</option>
+          <option value="19">山梨県</option>
+          <option value="20">長野県</option>
+          <option value="21">岐阜県</option>
+          <option value="22">静岡県</option>
+          <option value="23">愛知県</option>
+          <option value="24">三重県</option>
+          <option value="25">滋賀県</option>
+          <option value="26">京都府</option>
+          <option value="27">大阪府</option>
+          <option value="28">兵庫県</option>
+          <option value="29">奈良県</option>
+          <option value="30">和歌山県</option>
+          <option value="31">鳥取県</option>
+          <option value="32">島根県</option>
+          <option value="33">岡山県</option>
+          <option value="34">広島県</option>
+          <option value="35">山口県</option>
+          <option value="36">徳島県</option>
+          <option value="37">香川県</option>
+          <option value="38">愛媛県</option>
+          <option value="39">高知県</option>
+          <option value="40">福岡県</option>
+          <option value="41">佐賀県</option>
+          <option value="42">長崎県</option>
+          <option value="43">熊本県</option>
+          <option value="44">大分県</option>
+          <option value="45">宮崎県</option>
+          <option value="46">鹿児島県</option>
+          <option value="47">沖縄県</option>
+        </select>
+      </div>
+      <div class="col-five tab-full">
+        <label for="sfw">キーワード</label>
+        <input type="text" class="full-width" id="sfw">
+      </div>
+      <div class="col-two tab-full">
+        <label for="sfw">検索</label>
+        <a class="btn btn-primary" href="https://sigotora.jp/index.cfm?fuseaction=job.joblist&srh_jobtype_param=1&srh_jobtype_child_param=4&srh_jobtype_child_param=5" target="_blank" id="test">求人検索</a>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- contact
     ================================================== -->
-    <script src="js/jquery-3.2.1.min.js"></script>
-    <script src="js/plugins.js"></script>
-    <script src="js/main.js"></script>
+  <section id="contact" class="s-contact">
+    <div class="row">
+      <div class="col-six tab-full contact-secondary">
+        <h3 class="subhead subhead--light">運営会社情報</h3>
+        <p class="contact-address">株式会社オープンループパートナーズ</p>
+        <p class="contact-address">〒160-0022<br>東京都新宿区新宿4-3-17 FORECAST新宿SOUTH7階<br><i class="fa fa-phone-square" aria-hidden="true"></i>03-5368-3088</p>
+        <p><a class="btn btn--primary" href="https://www.olp.co.jp/" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i>公式サイト</a>
+        </p>
+      </div>
+      <div class="col-six tab-full contact-secondary">
+        <h3 class="subhead subhead--light">※※※※※※※※※※</h3>
+        <p class="contact-address">※※※※※※</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-full cl-copyright">
+        <span>
+          <i class="fa fa-copyright" aria-hidden="true"></i>&nbsp;2019&nbsp;Open Loop Partners, INC.</span>
+      </div>
+    </div>
+    <div class="cl-go-top">
+      <a class="smoothscroll" title="Back to Top" href="#top"><i class="icon-arrow-up" aria-hidden="true"></i></a>
+    </div>
+  </section>
+
+  <!-- preloader -->
+  <div id="preloader">
+    <div id="loader">
+    </div>
+  </div>
+
+  <!-- Java Script -->
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+
+  <!-- search Script -->
+  <script type="text/javascript">
+    $(function() {
+      var href = "https://sigotora.jp/index.cfm";
+      $('#srh_ken_param,#sfw').on('change', function() {
+        var srh_ken_param = $('#srh_ken_param').val();
+        var sfw = $('#sfw').val();
+        $('#test').prop('href', href + "?fuseaction=job.joblist&srh_jobtype_param=1&srh_jobtype_child_param=4&srh_jobtype_child_param=5&srh_ken_param=" + srh_ken_param + "&sfw=" + sfw);
+      });
+    });
+  </script>
 
 </body>
 
