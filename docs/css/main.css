@@ -1982,7 +1982,7 @@ html.no-csstransitions .home-content__main {
   }
 
   .home-sidelinks a {
-    padding: 2.1rem 12rem 2.1rem 4rem;
+    padding: 2.1rem 4rem 2.1rem 4rem;
   }
 }
 @media only screen and (max-width: 1200px) {
@@ -2007,7 +2007,7 @@ html.no-csstransitions .home-content__main {
   }
 
   .home-sidelinks a {
-    padding: 1.8rem 6rem 1.8rem 4rem;
+    padding: 1.8rem 4rem 1.8rem 4rem;
   }
 }
 @media only screen and (max-width: 1000px) {
