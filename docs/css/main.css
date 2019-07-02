@@ -3278,7 +3278,7 @@ html.no-csstransitions .home-content__main {
   }
 
   .contact-address {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
   }
 
   .contact-social {
@@ -3335,13 +3335,13 @@ html.no-csstransitions .home-content__main {
   }
 
   .cl-copyright {
-    margin-top: 9rem;
+    margin-top: 1rem;
     padding: 0;
     /* text-align: center; */
   }
 
   .cl-copyright span {
-    font-size: 14px;
+    font-size: 12px;
   }
   .cl-copyright span::after {
     display: none;
