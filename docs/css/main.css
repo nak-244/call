@@ -573,7 +573,7 @@ select {
   font-size: 1.5rem;
   line-height: 3rem;
   max-width: 100%;
-  background: rgba(0, 0, 0, 0.12);
+  background: rgba(0, 0, 0, 0.05);
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
@@ -786,8 +786,8 @@ button.btn--primary:focus,
 input[type="submit"].btn--primary:focus,
 input[type="reset"].btn--primary:focus,
 input[type="button"].btn--primary:focus {
-  background: #b51271;
-  border-color: #b51271;
+  background: #48C3F0;
+  border-color: #48C3F0;
 }
 
 /* button modifiers
