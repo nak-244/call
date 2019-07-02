@@ -3337,7 +3337,7 @@ html.no-csstransitions .home-content__main {
   .cl-copyright {
     margin-top: 9rem;
     padding: 0;
-    text-align: center;
+    /* text-align: center; */
   }
 
   .cl-copyright span {
